@@ -24,13 +24,13 @@
   <script src="script.js" defer></script>
   <script src="schedule.js" defer></script>
   <script src="counter.js" defer></script>
-  
+
 
 
 </head>
 
 <body onload="startTime()">
-  
+
   <div class="first-column">
     <img src="peddielogo.png" class="logo alt=" peddie logo>
     <h3>
@@ -41,15 +41,15 @@
     <h4>
       Days Until Graduation
     </h4>
-      <!-- <div> <code class="language-python match-braces counter" id="portfolio-code6"> </code></div> -->
-      <div id='counterdays' class='counter'></div>
+    <!-- <div> <code class="language-python match-braces counter" id="portfolio-code6"> </code></div> -->
+    <div id='counterdays' class='counter'></div>
   </div>
   <div class="second-column">
-    <div class= 'magic-mirror'>
+    <div class='magic-mirror'>
       <h2>
         Magic Mirror
       </h2>
-      <div><code class="language-python match-braces weather" id="portfolio-code5"> </code></div> 
+      <div><code class="language-python match-braces weather" id="portfolio-code5"> </code></div>
     </div>
     <div class="grid-container">
       <div class="grid-item item1">
@@ -67,31 +67,37 @@
         <p2> Upcoming Events</p2>
         <div><code class="language-python match-braces calendar" id="portfolio-code4"> </code></div>
         <div class='student_section'> Pictures of the Week</div>
-        <div class= 'student_section2'>
+        <div class='student_section2'>
           <!-- <a data-flickr-embed="true" href="https://www.flickr.com/photos/peddieschool/albums/72157720235616434" title="BOYS VARSITY BASKETBALL 2021 PSIT">
             <img src="https://live.staticflickr.com/65535/51746795314_d3636fa4f9.jpg" width="300" height="225" alt="BOYS VARSITY BASKETBALL 2021 PSIT"></a>
             <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script> -->
-            
-            <!-- <iframe src="https://www.peddie.org/tv-monitor/student-photography-test-page"></iframe> -->
-             <div class="embed-responsive">
-             <iframe class="embed-responsive-item"style="position: relative; top: 0; left: 0; width: 116%; height: 100%;" 
-             src="https://flickrembed.com/cms_embed.php?source=flickr&layout=fix&input=www.flickr.com/photos/peddieschool/albums/72177720296408871&sort=1&by=album&theme=slider&scale=fit&speed=30000&limit=100&skin=default-light&autoplay=true" scrolling="no" frameborder="0" allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true">
+
+          <!-- <iframe src="https://www.peddie.org/tv-monitor/student-photography-test-page"></iframe> -->
+          <div class="embed-responsive">
+            <iframe class="embed-responsive-item"
+              style="position: relative; top: 0; left: 0; width: 116%; height: 100%;"
+              src="https://flickrembed.com/cms_embed.php?source=flickr&layout=fix&input=www.flickr.com/photos/peddieschool/albums/72177720296408871&sort=1&by=album&theme=slider&scale=fit&speed=30000&limit=100&skin=default-light&autoplay=true"
+              scrolling="no" frameborder="0" allowFullScreen="true" webkitallowfullscreen="true"
+              mozallowfullscreen="true">
             </iframe>
             <script type="text/javascript">
-            function showpics()
-            {var a=$("#box").val();
-            $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?tags="+a+"&tagmode=any&format=json&jsoncallback=?",
-            function(a){$("#images").hide().html(a).fadeIn("fast"),
-            $.each(a.items,function(a,e)
-            {
-              $("<img/>").attr("src",e.media.m).appendTo("#images")})})}</script>
-            </div>
+              function showpics() {
+                var a = $("#box").val();
+                $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?tags=" + a + "&tagmode=any&format=json&jsoncallback=?",
+                  function (a) {
+                    $("#images").hide().html(a).fadeIn("fast"),
+                    $.each(a.items, function (a, e) {
+                      $("<img/>").attr("src", e.media.m).appendTo("#images")
+                    })
+                  })
+              }</script>
           </div>
-          <div class='signature'>
-            (Students: Send your photos to am@peddie.org)
-          </div>
+        </div>
+        <div class='signature'>
+          (Students: Send your photos to am@peddie.org)
+        </div>
+      </div>
+
     </div>
-    
-  </div>
-  
+
 </body>

@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Swimming - Boys' and Girls' Varsity
 BEGIN:VEVENT
 UID:87108@www.peddie.org
-DTSTAMP:20221009T024109Z
+DTSTAMP:20221020T171711Z
 DTSTART:20221203T150000
 SUMMARY:Swimming - Boys' and Girls' Varsity - Hill Relays (Away)
 DESCRIPTION:
@@ -13,40 +13,40 @@ LOCATION:The Hill School
 PRIORITY:0
 END:VEVENT
 BEGIN:VEVENT
-UID:87109@www.peddie.org
-DTSTAMP:20221009T024109Z
+UID:87240@www.peddie.org
+DTSTAMP:20221020T171711Z
 DTSTART;VALUE=DATE:20221207
-SUMMARY:Swimming - Boys' and Girls' Varsity - Junior Nationals (Away)
+SUMMARY:Swimming - Boys' and Girls' Varsity - Speedo Junior Nationals Championships (Away)
 DESCRIPTION:
 PRIORITY:0
 END:VEVENT
 BEGIN:VEVENT
-UID:87110@www.peddie.org
-DTSTAMP:20221009T024109Z
+UID:87238@www.peddie.org
+DTSTAMP:20221020T171711Z
 DTSTART;VALUE=DATE:20221208
-SUMMARY:Swimming - Boys' and Girls' Varsity - Junior Nationals (Away)
+SUMMARY:Swimming - Boys' and Girls' Varsity - Speedo Junior Nationals Championships (Away)
 DESCRIPTION:
 PRIORITY:0
 END:VEVENT
 BEGIN:VEVENT
-UID:87111@www.peddie.org
-DTSTAMP:20221009T024109Z
+UID:87237@www.peddie.org
+DTSTAMP:20221020T171711Z
 DTSTART;VALUE=DATE:20221209
-SUMMARY:Swimming - Boys' and Girls' Varsity - Junior Nationals (Away)
+SUMMARY:Swimming - Boys' and Girls' Varsity - Speedo Junior Nationals Championships (Away)
 DESCRIPTION:
 PRIORITY:0
 END:VEVENT
 BEGIN:VEVENT
-UID:87112@www.peddie.org
-DTSTAMP:20221009T024109Z
+UID:87239@www.peddie.org
+DTSTAMP:20221020T171711Z
 DTSTART;VALUE=DATE:20221210
-SUMMARY:Swimming - Boys' and Girls' Varsity - Junior Nationals (Away)
+SUMMARY:Swimming - Boys' and Girls' Varsity - Speedo Junior Nationals Championships (Away)
 DESCRIPTION:
 PRIORITY:0
 END:VEVENT
 BEGIN:VEVENT
 UID:87113@www.peddie.org
-DTSTAMP:20221009T024109Z
+DTSTAMP:20221020T171711Z
 DTSTART;VALUE=DATE:20221216
 SUMMARY:Swimming - Boys' and Girls' Varsity - Holiday Classic (Away)
 DESCRIPTION:
@@ -54,7 +54,7 @@ PRIORITY:0
 END:VEVENT
 BEGIN:VEVENT
 UID:87124@www.peddie.org
-DTSTAMP:20221009T024109Z
+DTSTAMP:20221020T171711Z
 DTSTART;VALUE=DATE:20221217
 SUMMARY:Swimming - Boys' and Girls' Varsity - Holiday Classic (Away)
 DESCRIPTION:
@@ -63,7 +63,7 @@ PRIORITY:0
 END:VEVENT
 BEGIN:VEVENT
 UID:87125@www.peddie.org
-DTSTAMP:20221009T024109Z
+DTSTAMP:20221020T171711Z
 DTSTART;VALUE=DATE:20221218
 SUMMARY:Swimming - Boys' and Girls' Varsity - Holiday Classic (Away)
 DESCRIPTION:
@@ -72,7 +72,7 @@ PRIORITY:0
 END:VEVENT
 BEGIN:VEVENT
 UID:87116@www.peddie.org
-DTSTAMP:20221009T024109Z
+DTSTAMP:20221020T171711Z
 DTSTART:20230107T153000
 SUMMARY:Swimming - Boys' and Girls' Varsity vs. McDonogh School\, Lawrenceville School (Home)
 DESCRIPTION:
@@ -81,7 +81,7 @@ PRIORITY:0
 END:VEVENT
 BEGIN:VEVENT
 UID:87117@www.peddie.org
-DTSTAMP:20221009T024109Z
+DTSTAMP:20221020T171711Z
 DTSTART:20230114T140000
 SUMMARY:Swimming - Boys' and Girls' Varsity vs. Mercersburg Academy (Home)
 DESCRIPTION:
@@ -90,7 +90,7 @@ PRIORITY:0
 END:VEVENT
 BEGIN:VEVENT
 UID:87118@www.peddie.org
-DTSTAMP:20221009T024109Z
+DTSTAMP:20221020T171711Z
 DTSTART:20230121T140000
 SUMMARY:Swimming - Boys' and Girls' Varsity vs. Germantown Academy (Away)
 DESCRIPTION:
@@ -98,44 +98,28 @@ LOCATION:Germantown Academy
 PRIORITY:0
 END:VEVENT
 BEGIN:VEVENT
-UID:87119@www.peddie.org
-DTSTAMP:20221009T024109Z
-DTSTART;VALUE=DATE:20230204
-SUMMARY:Swimming - Boys' and Girls' Varsity - MAPL Championship (Away)
+UID:87232@www.peddie.org
+DTSTAMP:20221020T171711Z
+DTSTART:20230204T130000
+SUMMARY:Swimming - Boys' and Girls' Varsity - Mid Atlantic Prep League Championships (Away)
 DESCRIPTION:
 LOCATION:Mercersburg Academy
 PRIORITY:0
 END:VEVENT
 BEGIN:VEVENT
-UID:87120@www.peddie.org
-DTSTAMP:20221009T024109Z
-DTSTART:20230207T140000
-SUMMARY:Swimming - Boys' and Girls' Varsity - BOYS NJISSA Championship (Away)
-DESCRIPTION:
-PRIORITY:0
-END:VEVENT
-BEGIN:VEVENT
-UID:87121@www.peddie.org
-DTSTAMP:20221009T024109Z
-DTSTART:20230208T130000
-SUMMARY:Swimming - Boys' and Girls' Varsity - GIRLS NJISSA Championship (Away)
-DESCRIPTION:
-PRIORITY:0
-END:VEVENT
-BEGIN:VEVENT
-UID:87122@www.peddie.org
-DTSTAMP:20221009T024109Z
+UID:87233@www.peddie.org
+DTSTAMP:20221020T171711Z
 DTSTART;VALUE=DATE:20230218
-SUMMARY:Swimming - Boys' and Girls' Varsity - Easterns (Away)
+SUMMARY:Swimming - Boys' and Girls' Varsity - Easterns Interscholastic Swimming and Diving Championships (Away)
 DESCRIPTION:
 LOCATION:Franklin and Marshall Kunkel Aquatic Center
 PRIORITY:0
 END:VEVENT
 BEGIN:VEVENT
-UID:87123@www.peddie.org
-DTSTAMP:20221009T024109Z
+UID:87234@www.peddie.org
+DTSTAMP:20221020T171711Z
 DTSTART;VALUE=DATE:20230219
-SUMMARY:Swimming - Boys' and Girls' Varsity - Easterns (Away)
+SUMMARY:Swimming - Boys' and Girls' Varsity - Easterns Interscholastic Swimming and Diving Championships (Away)
 DESCRIPTION:
 LOCATION:Franklin and Marshall Kunkel Aquatic Center
 PRIORITY:0
