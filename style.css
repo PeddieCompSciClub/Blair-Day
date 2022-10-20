@@ -38,7 +38,6 @@ color: #cc9800;
 font-weight: bold;
 font-size: 60px;
 font-family: 'Brandon Grotesque';
-padding-left: 195px; /*This padding left goes hand in hand with the padding left under the weather class since they are on the same axis*/
 }
 /*h3 is the class created to style the Menu div box located on the left hand side of the page */
 h3 {
