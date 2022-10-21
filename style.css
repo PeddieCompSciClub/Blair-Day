@@ -196,6 +196,9 @@ vertical-align: bottom;
 padding-left:140px; /*this works together with the padding left located in h2 because the weather and Magic Mirror text are on the same axis*/
 padding-top:25px;
 }
+.weather_image{
+  float:left;
+}
 /*the counter class is used to style the text in the counter.txt  */
 .counter{
 color:white;
@@ -219,6 +222,7 @@ color: #cc9800;
 }
 .magic-mirror{
 display: inline-flex;
+padding-right: 200px;
 }
 .embed-responsive{
 height: 240px !important;

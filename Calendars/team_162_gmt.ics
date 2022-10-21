@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Cross Country - Boys' and Girls' Varsity
 BEGIN:VEVENT
 UID:86342@www.peddie.org
-DTSTAMP:20221020T164303Z
+DTSTAMP:20221021T120303Z
 DTSTART;VALUE=DATE:20220921
 SUMMARY:Cross Country - Boys' and Girls' Varsity - Off campus practice
 DESCRIPTION:
@@ -13,7 +13,7 @@ PRIORITY:0
 END:VEVENT
 BEGIN:VEVENT
 UID:86674@www.peddie.org
-DTSTAMP:20221020T164303Z
+DTSTAMP:20221021T120303Z
 DTSTART:20220924T150000
 SUMMARY:Cross Country - Boys' and Girls' Varsity - Jerry Hart Cross Country Memorial Invitational (all levels)  race times & results under details (Home)
 DESCRIPTION:
@@ -22,7 +22,7 @@ PRIORITY:0
 END:VEVENT
 BEGIN:VEVENT
 UID:86675@www.peddie.org
-DTSTAMP:20221020T164303Z
+DTSTAMP:20221021T120303Z
 DTSTART;VALUE=DATE:20220927
 SUMMARY:Cross Country - Boys' and Girls' Varsity - Off campus practice
 DESCRIPTION:
@@ -30,7 +30,7 @@ PRIORITY:0
 END:VEVENT
 BEGIN:VEVENT
 UID:86676@www.peddie.org
-DTSTAMP:20221020T164303Z
+DTSTAMP:20221021T120303Z
 DTSTART;VALUE=DATE:20220928
 SUMMARY:Cross Country - Boys' and Girls' Varsity - Off campus practice
 DESCRIPTION:
@@ -38,7 +38,7 @@ PRIORITY:0
 END:VEVENT
 BEGIN:VEVENT
 UID:87061@www.peddie.org
-DTSTAMP:20221020T164303Z
+DTSTAMP:20221021T120303Z
 DTSTART:20221001T090000
 SUMMARY:Cross Country - Boys' and Girls' Varsity - Shore Coaches Invitational (race times & results under details) (Away)
 DESCRIPTION:
@@ -47,7 +47,7 @@ PRIORITY:0
 END:VEVENT
 BEGIN:VEVENT
 UID:87069@www.peddie.org
-DTSTAMP:20221020T164303Z
+DTSTAMP:20221021T120303Z
 DTSTART;VALUE=DATE:20221005
 SUMMARY:Cross Country - Boys' and Girls' Varsity - Off campus practice
 DESCRIPTION:
@@ -55,7 +55,7 @@ PRIORITY:0
 END:VEVENT
 BEGIN:VEVENT
 UID:87150@www.peddie.org
-DTSTAMP:20221020T164303Z
+DTSTAMP:20221021T120303Z
 DTSTART:20221007T164500
 SUMMARY:Cross Country - Boys' and Girls' Varsity - The Hill School (all levels) Boys race 4:40 pm - Girls race 5:15 pm CHANGED:New date\, was originally scheduled on 10/08/22 (Away)
 DESCRIPTION:
@@ -64,7 +64,7 @@ PRIORITY:0
 END:VEVENT
 BEGIN:VEVENT
 UID:87079@www.peddie.org
-DTSTAMP:20221020T164303Z
+DTSTAMP:20221021T120303Z
 DTSTART;VALUE=DATE:20221011
 SUMMARY:Cross Country - Boys' and Girls' Varsity - Off campus practice
 DESCRIPTION:
@@ -72,7 +72,7 @@ PRIORITY:0
 END:VEVENT
 BEGIN:VEVENT
 UID:87268@www.peddie.org
-DTSTAMP:20221020T164303Z
+DTSTAMP:20221021T120303Z
 DTSTART;VALUE=DATE:20221012
 SUMMARY:Cross Country - Boys' and Girls' Varsity - Off campus practice
 DESCRIPTION:
@@ -80,7 +80,7 @@ PRIORITY:0
 END:VEVENT
 BEGIN:VEVENT
 UID:87278@www.peddie.org
-DTSTAMP:20221020T164303Z
+DTSTAMP:20221021T120303Z
 DTSTART:20221015T140000
 SUMMARY:Cross Country - Boys' and Girls' Varsity - Lawrenceville School (all levels) full results under details (Home)
 DESCRIPTION:
@@ -89,7 +89,7 @@ PRIORITY:0
 END:VEVENT
 BEGIN:VEVENT
 UID:87444@www.peddie.org
-DTSTAMP:20221020T164303Z
+DTSTAMP:20221021T120303Z
 DTSTART:20221020T154500
 SUMMARY:Cross Country - Boys' and Girls' Varsity - MCTA Championships (varsity) V Girls race 3:45pm\, V Boys race 4:25pm (Away)
 DESCRIPTION:
@@ -98,7 +98,7 @@ PRIORITY:0
 END:VEVENT
 BEGIN:VEVENT
 UID:87448@www.peddie.org
-DTSTAMP:20221020T164303Z
+DTSTAMP:20221021T120303Z
 DTSTART:20221022T140000
 SUMMARY:Cross Country - Boys' and Girls' Varsity - Mercer Track Coaches JV Cross Country Invitational (junior varsity and freshman\, full race schedule under details tab) (Away)
 DESCRIPTION:
@@ -107,7 +107,7 @@ PRIORITY:0
 END:VEVENT
 BEGIN:VEVENT
 UID:87684@www.peddie.org
-DTSTAMP:20221020T164303Z
+DTSTAMP:20221021T120303Z
 DTSTART:20221026T133000
 SUMMARY:Cross Country - Boys' and Girls' Varsity - MAPL Championships (Varsity and JV) (Home)
 DESCRIPTION:
@@ -116,7 +116,7 @@ PRIORITY:0
 END:VEVENT
 BEGIN:VEVENT
 UID:87267@www.peddie.org
-DTSTAMP:20221020T164303Z
+DTSTAMP:20221021T120303Z
 DTSTART:20221101T140000
 SUMMARY:Cross Country - Boys' and Girls' Varsity - NJISAA Prep A & B Championships (varsity) race times under details CHANGED:New date\, was originally scheduled on 11/2 (Away)
 DESCRIPTION:
@@ -125,7 +125,7 @@ PRIORITY:0
 END:VEVENT
 BEGIN:VEVENT
 UID:83841@www.peddie.org
-DTSTAMP:20221020T164303Z
+DTSTAMP:20221021T120303Z
 DTSTART:20221105T144500
 SUMMARY:Cross Country - Boys' and Girls' Varsity - Blair Academy (all levels) (Home)
 DESCRIPTION:
