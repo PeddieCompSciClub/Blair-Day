@@ -193,7 +193,7 @@ font-family: sans-serif;
 display: inline-flex;
 text-align: center ;
 vertical-align: bottom;
-padding-left:140px; /*this works together with the padding left located in h2 because the weather and Magic Mirror text are on the same axis*/
+padding-left:0px; /*this works together with the padding left located in h2 because the weather and Magic Mirror text are on the same axis*/
 padding-top:25px;
 }
 .weather_image{
