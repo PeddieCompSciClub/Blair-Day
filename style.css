@@ -76,6 +76,7 @@ text-align: center;
 .second-column {
 width: 75%; /*3/4 of the mirror side*/
 padding-top:85px;
+padding-right:120px;
 float: right;
 text-align: center;
 display: inline;
@@ -84,7 +85,6 @@ display: inline;
 
 .grid-container {
   display: grid;
-  
 }
 /*this just specifies how we want the elements in our grid to be styled*/
 .grid-item {
@@ -130,7 +130,6 @@ display: inline;
 .item3 {
   grid-column: 3;
   grid-row: 1 / span 2;
- 
 }
 /*the calligram class is used to style the daily schedule pictures which are changed each period*/
 .calligram{
@@ -222,7 +221,6 @@ color: #cc9800;
 }
 .magic-mirror{
 display: inline-flex;
-padding-right: 200px;
 }
 .embed-responsive{
 height: 240px !important;
@@ -247,4 +245,39 @@ bottom:30px !important;
 .schedule{
 display:flex;
 margin-left: 25px;
+}
+/*the score display for the teams*/
+.score{
+  color:#cc9800;
+  font-size:12px;
+  font-family: sans-serif;
+  display: inline-flex;
+  text-align: center ;
+  vertical-align: bottom;
+  padding-left:0px; /*this works together with the padding left located in h2 because the weather and Magic Mirror text are on the same axis*/
+  padding-top:25px;
+}
+/*grid items for score*/
+.peddie-score-img {
+  grid-column: 1 ;
+  grid-row: 1;
+  padding-left: 50px;
+}
+.peddie-score-val {
+  grid-column: 2 ;
+  grid-row: 1;
+  padding-left: 50px;
+}
+.blair-score-img {
+  grid-column: 4 ;
+  grid-row: 1;
+  padding-left: 0px;
+}
+.blair-score-val {
+  grid-column: 3 ;
+  grid-row: 1;
+  padding-left: 50px;
+}
+.school-img {
+  height: 200px;
 }

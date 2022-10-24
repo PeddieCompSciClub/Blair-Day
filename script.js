@@ -34,8 +34,19 @@ fetch("/Blair-Day/weather.txt")
   })
   .then(text => document.getElementById("portfolio-code5").innerText = text + ' \u2109')
   .catch(errror => document.getElementById("portfolio-code5").innerText = "Unable to fetch portfolio, try again later")
+fetch("/Blair-Day/score.txt")
+  .then(response => {
+    if (!response.ok) {
+      throw new Error("Bad Response")
+    }
+    return response.text()
+  })
+  .then(text => document.getElementById("portfolio-code6p").innerText = text.split("-")[0])
+  .catch(errror => document.getElementById("portfolio-code6p").innerText = "6")
+  .then(text => document.getElementById("portfolio-code6b").innerText = text.split("-")[1])
+  .catch(errror => document.getElementById("portfolio-code6b").innerText = "6")
 
-function currentTime() {
+  function currentTime() {
   let date = new Date();
   let hh = date.getHours();
   let mm = date.getMinutes();
