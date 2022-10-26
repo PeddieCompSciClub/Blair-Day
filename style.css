@@ -36,7 +36,7 @@ a:hover {
 h2 {
 color: #cc9800;
 font-weight: bold;
-font-size: 60px;
+font-size: 80px;
 font-family: 'Brandon Grotesque';
 }
 /*h3 is the class created to style the Menu div box located on the left hand side of the page */
@@ -47,7 +47,7 @@ font-family: 'Brandon Grotesque';
   font-size: 23px;
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 20px;
+  padding-top: 25px;
 
 }
 /*h4 is the class created to style the Days until graduation div box loacted right underneath the menu div box on the left hand side of the page */
@@ -58,7 +58,7 @@ font-family: 'Brandon Grotesque';
   font-size: 20px;
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 5px;
+  padding-top: 25px;
   /* text-decoration: underline; */
 }
 /*The screen is broken up into two sections, a non-mirror side and a mirror side. The non-mirror side is where the menu and the days until graduation goes, 
@@ -111,25 +111,18 @@ display: inline;
   padding-right:170px;
 
 }
-/*item 1 corresponds to the time, daily schedule, and athletics schedule that are located on the left side of the mirror side*/
-.item1 {
+/*item 1 corresponds to the bottom left of the main display (schedule)*/
+.grid-item1 {
   grid-column: 1 ;
-  grid-row: 1;
-  padding-left: 50px;
 }
-/*item 2 currently doesn't correspond to anything because we are stacking the athletics schedule right underneath the daily schedule and expanding 
-* item 1 to essentially span the entire left side of the mirror side.*/
-.item2{
-  grid-column: 1 ;
-  grid-row: 2;
-  padding-left: 45x;
-  padding-top:5px;
+/*item 2 corresponds to the bottom center of the main display (photo stream?)*/
+.grid-item2{
+  grid-column: 2 ;
   /* display:inline-flex; */
 }
-/*item 3 corresponds to the Upcoming Events and Pictures of the week section that are located on the right side of the mirror side*/
-.item3 {
+/*item 3 corresponds to the bottom right of the main display (map?)*/
+.grid-item3 {
   grid-column: 3;
-  grid-row: 1 / span 2;
 }
 /*the calligram class is used to style the daily schedule pictures which are changed each period*/
 .calligram{

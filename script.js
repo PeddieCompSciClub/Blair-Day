@@ -1,4 +1,4 @@
-fetch("/Blair-Day/menu2.txt")
+fetch("menu2.txt")
   .then(response => {
     if (!response.ok) {
       throw new Error("Bad Response")
@@ -7,7 +7,7 @@ fetch("/Blair-Day/menu2.txt")
   })
   .then(text => document.getElementById("portfolio-code2").innerText = text)
   .catch(errror => document.getElementById("portfolio-code2").innerText = "Unable to fetch portfolio, try again later")
-fetch("/Blair-Day/athletics4.txt")
+fetch("athletics4.txt")
   .then(response => {
     if (!response.ok) {
       throw new Error("Bad Response")
@@ -16,7 +16,7 @@ fetch("/Blair-Day/athletics4.txt")
   })
   .then(text => document.getElementById("portfolio-code3").innerText = text)
   .catch(errror => document.getElementById("portfolio-code3").innerText = "Unable to fetch portfolio, try again later")
-fetch("/Blair-Day/calendar2.txt")
+fetch("calendar2.txt")
   .then(response => {
     if (!response.ok) {
       throw new Error("Bad Response")
@@ -25,7 +25,7 @@ fetch("/Blair-Day/calendar2.txt")
   })
   .then(text => document.getElementById("portfolio-code4").innerText = text)
   .catch(errror => document.getElementById("portfolio-code4").innerText = "Unable to fetch portfolio, try again later")
-fetch("/Blair-Day/weather.txt")
+fetch("weather.txt")
   .then(response => {
     if (!response.ok) {
       throw new Error("Bad Response")
@@ -34,7 +34,7 @@ fetch("/Blair-Day/weather.txt")
   })
   .then(text => document.getElementById("portfolio-code5").innerText = text + ' \u2109')
   .catch(errror => document.getElementById("portfolio-code5").innerText = "Unable to fetch portfolio, try again later")
-fetch("/Blair-Day/score.txt")
+fetch("score.txt")
   .then(response => {
     if (!response.ok) {
       throw new Error("Bad Response")
@@ -44,7 +44,7 @@ fetch("/Blair-Day/score.txt")
   .then(function(text){document.getElementById("portfolio-code6p").innerText = text.split("-")[0];document.getElementById("portfolio-code6b").innerText = text.split("-")[1];})
   .catch(error => document.getElementById("portfolio-code6p").innerText = "6", document.getElementById("portfolio-code6b").innerText = "6")
 
-  function currentTime() {
+function currentTime() {
   let date = new Date();
   let hh = date.getHours();
   let mm = date.getMinutes();
