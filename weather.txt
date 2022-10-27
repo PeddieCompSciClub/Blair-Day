@@ -1,2 +1,2 @@
-Currently: Fog
-Temperature now: 65
+Currently: Clear with periodic clouds
+Temperature now: 57

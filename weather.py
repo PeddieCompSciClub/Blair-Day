@@ -20,6 +20,7 @@ def get_weather_data(url):
     result = {}
     result['weather_now'] = soup.find("span", attrs={"id": "wob_dc"}).text
     result["temp_now"] = soup.find("span", attrs={"id": "wob_tm"}).text
+    result["weather_img"] = "https:" + soup.find("img", attrs={"id": "wob_tci"})["src"]
     return result
 
 
@@ -45,3 +46,7 @@ if __name__ == "__main__":
     data = get_weather_data(URL)
     file.write(f"Currently: {data['weather_now']}\n")
     file.write(f"Temperature now: {data['temp_now']}")
+    open('weather.png', 'wb').write(requests.get(data["weather_img"], allow_redirects=True).content)
+
+    file.close()
+    print(__file__)
