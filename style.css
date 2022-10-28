@@ -183,13 +183,48 @@ color:#cc9800;
 font-size:12px;
 font-family: sans-serif;
 display: inline-flex;
-text-align: center ;
-vertical-align: bottom;
+text-align: left ;
+vertical-align: middle;
 padding-left:0px; /*this works together with the padding left located in h2 because the weather and Magic Mirror text are on the same axis*/
-padding-top:25px;
+padding-top:0px;
+line-height:120%;
 }
-.weather_image{
-  float:left;
+.weather_img{
+  height: 64px;
+  vertical-align: middle;
+}
+/*used in temperature display*/
+.temp{
+  color:#cc9800;
+  font-size:48px;
+  font-family: sans-serif;
+  display: inline-flex;
+  text-align: center;
+  vertical-align: middle;
+  padding-left:0px; /*this works together with the padding left located in h2 because the weather and Magic Mirror text are on the same axis*/
+  padding-top:0px;
+}
+/* grid container for weather info */
+.weather-grid-container{
+  display: grid;
+  grid-template-columns:auto min-content auto;
+  align-items: center;
+}
+/* grid item for weather image icon */
+.weather-grid-item1{
+  grid-column: 1;
+  justify-self: right;
+}
+/* grid item for temperature info */
+.weather-grid-item2{
+  grid-column: 2;
+  justify-self: auto;
+}
+/* grid item for weather additional info */
+.weather-grid-item3{
+  grid-column: 3;
+  justify-self: left;
+  padding: 5px;
 }
 /*the counter class is used to style the text in the counter.txt  */
 .counter{
