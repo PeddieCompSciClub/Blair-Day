@@ -48,7 +48,7 @@ if __name__ == "__main__":
     # get data
     data = get_weather_data(URL)
     file.write(f"{data['temp_now']}\u2109\n")
-    file.write(f"Currently: {data['weather_now']}\n")
+    file.write(f"{data['weather_now']}\n")
     file.write(f"Humidity: {data['humidity']}\n")
     file.write(f"Wind: {data['wind']}")
     open('weather.png', 'wb').write(requests.get(data["weather_img"], allow_redirects=True).content)
