@@ -7,15 +7,6 @@ fetch("menu2.txt")
   })
   .then(text => document.getElementById("portfolio-code2").innerText = text)
   .catch(errror => document.getElementById("portfolio-code2").innerText = "Unable to fetch portfolio, try again later")
-fetch("athletics4.txt")
-  .then(response => {
-    if (!response.ok) {
-      throw new Error("Bad Response")
-    }
-    return response.text()
-  })
-  .then(text => document.getElementById("portfolio-code3").innerText = text)
-  .catch(errror => document.getElementById("portfolio-code3").innerText = "Unable to fetch portfolio, try again later")
 fetch("calendar2.txt")
   .then(response => {
     if (!response.ok) {
@@ -46,6 +37,46 @@ fetch("score.txt")
   })
   .then(function(text){document.getElementById("portfolio-code6p").innerText = text.split("-")[0];document.getElementById("portfolio-code6b").innerText = text.split("-")[1];})
   .catch(error => document.getElementById("portfolio-code6p").innerText = "6", document.getElementById("portfolio-code6b").innerText = "6")
+fetch("athletics2.txt")
+  .then(response => {
+    if (!response.ok) {
+      throw new Error("Bad Response")
+    }
+    return response.text()
+  })
+  .then(function(text){
+    lines = text.split("\n")
+
+    for(let i=0; i<lines.length-1; i++){
+      const newTeam = document.createElement("p2")
+      const newLevel = document.createElement("p2")
+      const newLocation = document.createElement("p2")
+      const newTime = document.createElement("p2")
+      const newScore = document.createElement("p2")
+
+      newTeam.classList.add("event-team")
+      newLevel.classList.add("event-level")
+      newLocation.classList.add("event-location")
+      newTime.classList.add("event-time")
+      newScore.classList.add("event-score")
+
+      info = lines[i].split("\\")
+      newTeam.innerText = info[0].split(" - ")[0]
+      newLevel.innerText = info[0].split(" - ")[1]
+      newLocation.innerText = info[1]
+      newTime.innerText = info[2]
+      newScore.innerText = info[3]
+
+      document.getElementById("events").appendChild(newTeam)
+      document.getElementById("events").appendChild(newLevel)
+      document.getElementById("events").appendChild(newLocation)
+      document.getElementById("events").appendChild(newTime)
+      document.getElementById("events").appendChild(newScore)
+    }
+  })
+  .catch(errror => document.getElementById("portfolio-code3").innerText = "Unable to fetch portfolio, try again later")
+
+
 
 function currentTime() {
   let date = new Date();
