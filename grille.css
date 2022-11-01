@@ -90,6 +90,8 @@ display: inline;
 .main-grid-container{
   display: grid;
   padding-top: 45px;
+  padding-right: 0px;
+  padding-left:0px;
 }
 .main-grid-container p{
   color:#cc9800;
@@ -102,7 +104,6 @@ display: inline;
   color:#cc9800;
   font-family: 'Brandon Grotesque';
   font-size: 23px;
-
 }
 /* p vs p2 - p is usuallt the title or the bigger text and p2 is the smaller text*/
 .grid-item p{
@@ -184,9 +185,10 @@ color:white;
 font-size:8px;
 font-family: sans-serif;
 display: inline-flex;
-padding-right:220px;
+/* padding-right:220px; */
 text-align: left;
 text-justify: inter-word;
+margin-left:auto;
 }
 /*the weather class is used to style the text in the weather.txt  */
 .weather{
