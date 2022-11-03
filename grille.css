@@ -66,8 +66,8 @@ font-family: 'Brandon Grotesque';
 * and 3/4 of the page for the mirror side*/
 .first-column {
 width: 25%; /*1/4 of the non-mirror side*/
-padding-top:85px;
-padding-left:120px;
+padding-top:120px;
+padding-left:56px;
 float: left;
 text-align: center;
 
@@ -89,9 +89,9 @@ display: inline;
 /* Grid container used for the main body */
 .main-grid-container{
   display: grid;
-  padding-top: 45px;
+  padding-top: 50px;
   padding-right: 0px;
-  padding-left:0px;
+  padding-left:100px;
 }
 .main-grid-container p{
   color:#cc9800;
@@ -258,6 +258,7 @@ padding-right:0px;
 }
 .magic-mirror{
 display: inline-flex;
+padding-top: 20px;
 }
 .embed-responsive{
 height: 240px !important;

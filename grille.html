@@ -100,9 +100,6 @@
               type="text/javascript">function showpics() { var a = $("#box").val(); $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?tags=" + a + "&tagmode=any&format=json&jsoncallback=?", function (a) { $("#images").hide().html(a).fadeIn("fast"), $.each(a.items, function (a, e) { $("<img/>").attr("src", e.media.m).appendTo("#images") }) }) }</script>
           </div>
         </div>
-        <div class='signature'>
-          (Students: Send your photos to am@peddie.org)
-        </div>
       </div>
       <div class="grid-item3">
         <p> Upcoming Events</p>
