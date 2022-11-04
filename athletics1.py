@@ -1,4 +1,3 @@
-from asyncio.windows_events import NULL
 from bs4 import BeautifulSoup
 import requests 
 import time
