@@ -1,1 +1,10 @@
-Cross Country - Boys' and Girls' Varsity\\locationOverride\\scoreOverride
++\Tennis - Junior Varsity Girls\Tennis Courts\Nov 2\Peddie 5-0
+Field Hockey - Junior Varsity Girls\Field Hockey - JV Girls\\\
+Tennis - Varsity Girls\\\\
+Soccer - Varsity Girls\\\\
+Soccer - Varsity Boys\\\\
+Field Hockey - Varsity Girls\\\\
+Soccer - Junior Varsity Boys\Soccer - JV Boys\\\
+Soccer - Junior Varsity Girls\Soccer - JV Girls\\\
+Football - Varsity Boys\\\\
+Cross Country - Boys' and Girls' Varsity\Cross Country - Varsity\locationOverride\\scoreOverride

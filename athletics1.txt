@@ -1,9 +1,9 @@
-Field Hockey - Junior Varsity Girls\Outdoor Turf Field\11:30\
-Tennis - Varsity Girls\Tennis Courts\11:30\
-Soccer - Varsity Girls\Back Field 4\11:30\
-Soccer - Varsity Boys\Back Field 3\11:30\
-Field Hockey - Varsity Girls\Outdoor Turf Field\1:00\
-Soccer - Junior Varsity Boys\Back Field 3\1:30\
-Soccer - Junior Varsity Girls\Back Field 4\1:30\
-Football - Varsity Boys\Shuman Field\2:00\
-Cross Country - Boys' and Girls' Varsity\Peddie Golf Course\2:45\
+Field Hockey - Junior Varsity Girls\Outdoor Turf Field\11:30\ 
+Tennis - Varsity Girls\Tennis Courts\11:30\ 
+Soccer - Varsity Girls\Back Field 4\11:30\ 
+Soccer - Varsity Boys\Back Field 3\11:30\ 
+Field Hockey - Varsity Girls\Outdoor Turf Field\1:00\ 
+Soccer - Junior Varsity Boys\Back Field 3\1:30\ 
+Soccer - Junior Varsity Girls\Back Field 4\1:30\ 
+Football - Varsity Boys\Shuman Field\2:00\ 
+Cross Country - Boys' and Girls' Varsity\Peddie Golf Course\2:45\ 
