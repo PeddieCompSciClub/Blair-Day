@@ -184,7 +184,8 @@ color:white;
 font-size:8px;
 font-family: sans-serif;
 display: inline-flex;
-padding-right:220px;
+/* padding-right:220px; */
+margin-left:auto;
 text-align: left;
 text-justify: inter-word;
 }
