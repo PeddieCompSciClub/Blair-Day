@@ -77,6 +77,7 @@ text-align: center;
 width: 75%; /*3/4 of the mirror side*/
 padding-top:85px;
 padding-right:120px;
+padding-left:80px;
 float: right;
 text-align: center;
 display: inline;
@@ -91,7 +92,7 @@ display: inline;
   display: grid;
   padding-top: 50px;
   padding-right: 0px;
-  padding-left:100px;
+  padding-left:20px;
 }
 .main-grid-container p{
   color:#cc9800;

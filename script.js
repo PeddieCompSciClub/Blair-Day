@@ -35,7 +35,7 @@ fetch("score.txt")
     }
     return response.text()
   })
-  .then(function(text){document.getElementById("portfolio-code6p").innerText = text.split("-")[0];document.getElementById("portfolio-code6b").innerText = text.split("-")[1];})
+  .then(function(text){document.getElementById("portfolio-code6p").innerText = text.split("\\")[0];document.getElementById("portfolio-code6b").innerText = text.split("\\")[1];})
   .catch(error => document.getElementById("portfolio-code6p").innerText = "6", document.getElementById("portfolio-code6b").innerText = "6")
 fetch("athletics2.txt")
   .then(response => {
