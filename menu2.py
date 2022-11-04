@@ -6,3 +6,6 @@ dates=dates.replace("Lunch",'\nLunch')
 dates=dates.replace("Dinner",'\nDinner')
 file1.write(dates)
 file1.close()
+
+#debugging:
+print(__file__)

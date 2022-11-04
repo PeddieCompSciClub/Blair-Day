@@ -66,3 +66,6 @@ def findCalendar(textFile):
 
 findCalendar("calendar1.ics")
 file1.close()
+
+#debugging:
+print(__file__)

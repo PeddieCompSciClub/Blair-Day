@@ -1,6 +1,5 @@
 from bs4 import BeautifulSoup
 import requests 
-import time
 
 # #while(True):
 file1 = open('athletics1.txt', 'w')
@@ -31,3 +30,6 @@ for row in table:
 # file2.write(menu2)
 file1.close()
 # file2.close()
+
+#debugging:
+print(__file__)

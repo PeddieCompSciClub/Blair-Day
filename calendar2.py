@@ -8,3 +8,6 @@ with open('calendar1.txt', 'r') as f:
         else:
             break
 file1.close()
+
+#debugging:
+print(__file__)

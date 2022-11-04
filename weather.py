@@ -54,4 +54,6 @@ if __name__ == "__main__":
     open('weather.png', 'wb').write(requests.get(data["weather_img"], allow_redirects=True).content)
 
     file.close()
-    print(__file__)
+
+#debugging:
+print(__file__)

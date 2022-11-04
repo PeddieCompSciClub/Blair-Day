@@ -47,7 +47,8 @@ for i in range(len(events)-1):
 
 file1.close()
 
-
+#debugging:
+print(__file__)
 
 # athletics2.py
 # overrides values in athletics1.txt with athleticsOverride.txt
