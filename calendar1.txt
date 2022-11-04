@@ -1,52 +1,3 @@
-Peddie vs. Hill Day (A) - 	October	08
-Special Schedule - EFG - 	October	08
-Peddie Fall Preview - 	October	09
-Indigenous Peoples' Day - 	October	10
-College Day for Seniors - 	October	12
-Freshmen Games for 9s - 	October	12
-PSAT for 10 and 11s - 	October	12
-Sophomore Class Community Life Program
-Efros
-College Event - 	October	14
-Special Schedule - GFBDE - 	October	14
-STEM - EXP Poster Night - 	October	14
-Parent & Family Welcome Reception - 	October	14
-Long Weekend - 	October	15
-No Class Saturday - 	October	15
-Parents & Family Day - 	October	15
-Peddie vs. Lawrenceville Day (H) - 	October	15
-Long Weekend - 	October	16
-Long Weekend - 	October	17
-Dorms open at 7 a.m. - 	October	18
-Long Weekend - 	October	18
-Advisory - 	October	19
-Classes Resume - 	October	19
-On Campus Weekend - 	October	21
-Peddie Arts Faculty Exhibition - 	October	21
-ACT - 	October	22
-On Campus Weekend - 	October	22
-Peddie vs. Mercersburg Day (A) - 	October	22
-On Campus Weekend - 	October	23
-Diwali Celebration - 	October	24
-Affinity Group Meetings - 	October	26
-Fall Play - 	October	27
-Visual Arts Trip (NYC) - 	October	27
-E Block replaces C Block - 	October	28
-Fall Play - 	October	28
-Fall Play - 	October	29
-Peddie vs. Hun Day (A) - 	October	29
-Special Schedule DFG & classes end @ 10:50 - 	October	29
-Peddie Fall Preview - 	October	30
-Assessment Week - 	October	31
-Halloween - 	October	31
-Assessment Week - 	November	01
-First Day of American Indian Heritage Month - 	November	01
-Assessment Week - 	November	02
-Community Meeting - 	November	02
-Assessment Week - 	November	03
-DMX reserved for Music - 	November	03
-Music Concert - 	November	03
-No Homework Night - 	November	03
 Assessment Week - 	November	04
 On Campus Weekend - 	November	04
 No Class Saturday - 	November	05
@@ -85,3 +36,47 @@ Boarders Return - 	November	28
 Thanksgiving Break - 	November	28
 Classes Resume - 	November	29
 Advisory - 	November	30
+On Campus Weekend - 	December	02
+Tip Off Tournament - 	December	02
+On Campus Weekend - 	December	03
+SAT - 	December	03
+Tip Off Tournament - 	December	03
+On Campus Weekend - 	December	04
+Tip Off Tournament - 	December	04
+NYC Holiday Party - 	December	06
+Community Meeting - 	December	07
+PSIT - 	December	09
+ACT - 	December	10
+PSIT - 	December	10
+PSIT - 	December	11
+Late Start - 	December	14
+Vespers - 	December	15
+Special Schedule - No C Block - 	December	16
+Winter break begins after Last Commitment - 	December	16
+Winter Break - 	December	17
+Winter Break - 	December	18
+Winter Break - 	December	19
+Winter Break - 	December	20
+Winter Break - 	December	21
+Winter Break - 	December	22
+Offices Closed - 	December	23
+Winter Break - 	December	23
+Christmas Eve - 	December	24
+Offices Closed - 	December	24
+Winter Break - 	December	24
+Christmas Day - 	December	25
+Offices Closed - 	December	25
+Winter Break - 	December	25
+Offices Closed - 	December	26
+Winter Break - 	December	26
+Offices Closed - 	December	27
+Winter Break - 	December	27
+Offices Closed - 	December	28
+Winter Break - 	December	28
+Offices Closed - 	December	29
+Winter Break - 	December	29
+Offices Closed - 	December	30
+Winter Break - 	December	30
+New Year's Eve - 	December	31
+Offices Closed - 	December	31
+Winter Break - 	December	31
