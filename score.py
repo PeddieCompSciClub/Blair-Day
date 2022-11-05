@@ -13,8 +13,8 @@ for event in events:
         if(event[0]=="P"): pScore+=1
         if(event[0]=="B"): bScore+=1
 
-if (len(oScore[0])>0): pScore += oScore[0]
-if (len(oScore[1])>0): bScore += oScore[1]
+if (len(oScore[0])>0): pScore += int(oScore[0])
+if (len(oScore[1])>0): bScore += int(oScore[1])
 
 file1.write(str(pScore) + "\\" + str(bScore))
 print(__file__)
