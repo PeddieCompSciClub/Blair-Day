@@ -22,7 +22,7 @@ for row in table:
         item["time"] = row.find('time', {'class':'fsTime'}).get("datetime").split("T")[1]
         item["time"] = str(int(item["time"].split(":")[0])%12) +":"+ item["time"].split(":")[1] #read and set correct time from datetime attribute
         result = row.find('td', {'class':'fsAthleticsResult'}).text.replace('\n',"").replace('\t',"")
-        result = ("Peddie" if (result=="Win") else "Blair" if (result=="Lose") else "")
+        result = ("Peddie" if (result=="Win") else "Blair" if (result=="Loss") else "")
         score = row.find('td', {'class':'fsAthleticsScore'}).text.replace('\n',"").replace('\t',"")
         item["score"] = result + " " + score
 
