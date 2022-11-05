@@ -303,7 +303,7 @@ margin-left: 25px;
   grid-column: 2 ;
   grid-row: 1;
   text-align:left;
-  padding-left: 0px;
+  padding-right: 75px;
 }
 .blair-score-img {
   grid-column: 4 ;
@@ -314,7 +314,7 @@ margin-left: 25px;
   grid-column: 3 ;
   grid-row: 1;
   text-align:right;
-  padding-left: 0px;
+  padding-left: 75px;
 }
 .school-img {
   height: 200px;
