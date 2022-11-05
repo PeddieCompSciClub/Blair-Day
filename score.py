@@ -17,3 +17,4 @@ if (len(oScore[0])>0): pScore = oScore[0]
 if (len(oScore[1])>0): bScore = oScore[1]
 
 file1.write(str(pScore) + "\\" + str(bScore))
+print(__file__)
