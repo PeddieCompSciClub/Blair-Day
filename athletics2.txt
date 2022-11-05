@@ -1,10 +1,10 @@
-Tennis - Junior Varsity Girls\Tennis Courts\Nov 2\Peddie 5-0
-Field Hockey - JV Girls\Outdoor Turf Field\11:30\ 
+Tennis - JV Girls\Tennis Courts\Nov 2\Peddie 5-0
 Tennis - Varsity Girls\Tennis Courts\11:30\ 
 Soccer - Varsity Girls\Back Field 4\11:30\ 
 Soccer - Varsity Boys\Back Field 3\11:30\ 
+Field Hockey - JV Girls\Outdoor Turf Field\11:30\Blair 0-2
 Field Hockey - Varsity Girls\Outdoor Turf Field\1:00\ 
 Soccer - JV Boys\Back Field 3\1:30\ 
 Soccer - JV Girls\Back Field 4\1:30\ 
 Football - Varsity Boys\Shuman Field\2:00\ 
-Cross Country - Varsity\locationOverride\2:45\scoreOverride
+Cross Country - Varsity\Peddie Golf Course\2:45\ 
