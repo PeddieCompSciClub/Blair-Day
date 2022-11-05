@@ -87,8 +87,8 @@ function currentTime() {
   if (hh == 0) {
     hh = 12;
   }
-  if (hh > 12) {
-    hh = hh - 12;
+  if (hh >= 12) {
+    if(hh!=12) hh = hh - 12;
     session = "PM";
   }
   
