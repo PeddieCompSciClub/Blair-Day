@@ -1,9 +1,9 @@
-Tennis - Varsity Girls\Tennis Courts\11:30\ 
-Field Hockey - Junior Varsity Girls\Outdoor Turf Field\11:30\Blair 0-2
-Soccer - Varsity Girls\Back Field 4\11:30\Peddie 2-1
-Soccer - Varsity Boys\Back Field 3\11:30\Blair 0-1
-Field Hockey - Varsity Girls\Outdoor Turf Field\1:00\ 
-Soccer - Junior Varsity Boys\Back Field 3\1:30\ 
-Soccer - Junior Varsity Girls\Back Field 4\1:30\ 
-Football - Varsity Boys\Shuman Field\2:00\ 
-Cross Country - Boys' and Girls' Varsity\Peddie Golf Course\2:45\ 
+Soccer - Junior Varsity Girls\Blair Academy\11:30\ 
+Field Hockey - Varsity Girls\Blair Academy\11:30\ 
+Tennis - Varsity Girls\Blair Academy\11:30\ 
+Soccer - Varsity Boys\Blair Academy\11:30\ 
+Cross Country - Boys and Girls Varsity\Blair Academy\0:00\ 
+Field Hockey - Junior Varsity Girls\Blair Academy\1:00\ 
+Soccer - Junior Varsity Boys\Blair Academy\1:30\ 
+Soccer - Varsity Girls\Blair Academy\1:30\ 
+Football - Varsity Boys\Blair Academy\2:00\ 

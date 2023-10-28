@@ -1,12 +1,15 @@
 body {
-  margin:0px;
-  background-color:black;
+  margin: 0px;
+  background-color: black;
 }
+
 /* Standard body text style */
-body,html {
+body,
+html {
   height: 100%;
-  margin:0;
-  overflow-x: hidden; /*prevents the creation of a horizontal scroll bar for any page*/
+  margin: 0;
+  overflow-x: hidden;
+  /*prevents the creation of a horizontal scroll bar for any page*/
 }
 
 a {
@@ -19,6 +22,7 @@ a:hover {
   transition: 0.2s;
   color: #383938;
 }
+
 /*specifies scrollbar dimensions and color incase theres too much content to fit on the screen vertically*/
 ::-webkit-scrollbar {
   width: 5px;
@@ -32,17 +36,19 @@ a:hover {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
 /*h2 is the class created to style the Magic Mirror div box located at the top of the page*/
 h2 {
-color: #cc9800;
-font-weight: bold;
-font-size: 80px;
-font-family: 'Brandon Grotesque';
+  color: #cc9800;
+  font-weight: bold;
+  font-size: 80px;
+  font-family: 'Brandon Grotesque';
 }
+
 /*h3 is the class created to style the Menu div box located on the left hand side of the page */
 h3 {
-color:#cc9800;
-font-family: 'Brandon Grotesque';
+  color: #cc9800;
+  font-family: 'Brandon Grotesque';
   text-align: center;
   font-size: 23px;
   padding-left: 20px;
@@ -50,10 +56,11 @@ font-family: 'Brandon Grotesque';
   padding-top: 25px;
 
 }
+
 /*h4 is the class created to style the Days until graduation div box loacted right underneath the menu div box on the left hand side of the page */
 h4 {
-color:#cc9800;
-font-family: 'Brandon Grotesque';
+  color: #cc9800;
+  font-family: 'Brandon Grotesque';
   text-align: center;
   font-size: 20px;
   padding-left: 20px;
@@ -61,51 +68,59 @@ font-family: 'Brandon Grotesque';
   padding-top: 25px;
   /* text-decoration: underline; */
 }
+
 /*The screen is broken up into two sections, a non-mirror side and a mirror side. The non-mirror side is where the menu and the days until graduation goes, 
 * while the mirror-side has the main content for the day. By specifying a 25% to 75 percent ratio, we divide keep 1/4 of the page for the non mirror side 
 * and 3/4 of the page for the mirror side*/
 .first-column {
-width: 25%; /*1/4 of the non-mirror side*/
-padding-top:85px;
-padding-left:100px;
-float: left;
-text-align: center;
+  width: 25%;
+  /*1/4 of the non-mirror side*/
+  padding-top: 85px;
+  padding-left: 100px;
+  float: left;
+  text-align: center;
 
 }
 
 .second-column {
-width: 75%; /*3/4 of the mirror side*/
-padding-top:85px;
-padding-right:100px;
-float: right;
-text-align: center;
-display: inline;
+  width: 75%;
+  /*3/4 of the mirror side*/
+  padding-top: 85px;
+  padding-right: 100px;
+  float: right;
+  text-align: center;
+  display: inline;
 }
+
 /*we used the grid feature to place the different feeds in various sections on the mirror side of the monitor */
 /* Grid container used forthe scores */
 .grid-container {
   display: grid;
 }
+
 /* Grid container used for the main body */
-.main-grid-container{
+.main-grid-container {
   display: grid;
   padding-top: 45px;
 }
-.main-grid-container p{
-  color:#cc9800;
+
+.main-grid-container p {
+  color: #cc9800;
   font-family: 'Brandon Grotesque';
   font-size: 24px;
   margin-bottom: 0px;
 }
+
 /*this just specifies how we want the elements in our grid to be styled*/
 .grid-item {
-  color:#cc9800;
+  color: #cc9800;
   font-family: 'Brandon Grotesque';
   font-size: 23px;
 
 }
+
 /* p vs p2 - p is usuallt the title or the bigger text and p2 is the smaller text*/
-.grid-item p{
+.grid-item p {
   color: #cc9800;
   font-family: 'Brandon Grotesque';
   text-align: center;
@@ -113,241 +128,288 @@ display: inline;
   /* text-decoration: underline; */
 }
 
-.grid-item p2{
+.grid-item p2 {
   color: #cc9800;
   font-family: 'Brandon Grotesque';
   text-align: center;
   font-size: 23px;
   /* text-decoration: underline; */
-  padding-right:170px;
+  padding-right: 170px;
 
 }
+
 /*item 1 corresponds to the bottom left of the main display (schedule)*/
 .grid-item1 {
-  grid-column: 1 ;
+  grid-column: 1;
 }
+
 /*item 2 corresponds to the bottom center of the main display (photo stream?)*/
-.grid-item2{
-  grid-column: 2 ;
+.grid-item2 {
+  grid-column: 2;
   /* display:inline-flex; */
 }
+
 /*item 3 corresponds to the bottom right of the main display (map?)*/
 .grid-item3 {
   grid-column: 3;
 }
+
 /*the calligram class is used to style the daily schedule pictures which are changed each period*/
-.calligram{
+.calligram {
   max-width: 400px;
-  height:200px;
-  display:block;
+  height: 200px;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   padding-top: 10px;
 
 }
+
 /* the logo class is used to style the peddie logo which is at the very top of the page on the left non-mirror side*/
-.logo{
+.logo {
   max-width: 200px;
-  height:65px;
-  display:block;
+  height: 65px;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   padding-top: 20px;
 }
+
 /*this feature has been removed for now but this was used to style the div box which featured what the current block is*/
-.currentblock{
-color: #cc9800;
-font-size:17px;
-font-family: sans-serif;
-display: inline-flex;
+.currentblock {
+  color: #cc9800;
+  font-size: 17px;
+  font-family: sans-serif;
+  display: inline-flex;
 }
+
 /*the menu class is used to style the text in the menu2.txt  */
-.menu{
-color:white;
-font-size:8px;
-font-family: sans-serif;
-display: inline-flex;
-text-align:left;
+.menu {
+  color: white;
+  font-size: 8px;
+  font-family: sans-serif;
+  display: inline-flex;
+  text-align: left;
 }
+
 /*the athletics class is used to style the text in the athletics4.txt  */
-.athletics{
- color:white;
-font-size:7.5px;
-font-family: sans-serif;
-display: inline-flex;
-text-align: left;
-vertical-align: top;
+.athletics {
+  color: white;
+  font-size: 7.5px;
+  font-family: sans-serif;
+  display: inline-flex;
+  text-align: left;
+  vertical-align: top;
 }
+
 /*the calendar class is used to style the text in the calendar2.txt  */
-.calendar{
-color:white;
-font-size:8px;
-font-family: sans-serif;
-display: inline-flex;
-/* padding-right:220px; */
-margin-left:auto;
-text-align: left;
-text-justify: inter-word;
+.calendar {
+  color: white;
+  font-size: 8px;
+  font-family: sans-serif;
+  display: inline-flex;
+  /* padding-right:220px; */
+  margin-left: auto;
+  text-align: left;
+  text-justify: inter-word;
 }
+
 /*the weather class is used to style the text in the weather.txt  */
-.weather{
-color:#cc9800;
-font-size:12px;
-font-family: sans-serif;
-display: inline-flex;
-text-align: left ;
-vertical-align: middle;
-padding-left:0px; /*this works together with the padding left located in h2 because the weather and Magic Mirror text are on the same axis*/
-padding-top:0px;
-line-height:120%;
+.weather {
+  color: #cc9800;
+  font-size: 12px;
+  font-family: sans-serif;
+  display: inline-flex;
+  text-align: left;
+  vertical-align: middle;
+  padding-left: 0px;
+  /*this works together with the padding left located in h2 because the weather and Magic Mirror text are on the same axis*/
+  padding-top: 0px;
+  line-height: 120%;
 }
-.weather_img{
+
+.weather_img {
   height: 64px;
   vertical-align: middle;
 }
+
 /*used in temperature display*/
-.temp{
-  color:#cc9800;
-  font-size:48px;
+.temp {
+  color: #cc9800;
+  font-size: 48px;
   font-family: sans-serif;
   display: inline-flex;
   text-align: center;
   vertical-align: middle;
-  padding-left:0px; /*this works together with the padding left located in h2 because the weather and Magic Mirror text are on the same axis*/
-  padding-top:0px;
+  padding-left: 0px;
+  /*this works together with the padding left located in h2 because the weather and Magic Mirror text are on the same axis*/
+  padding-top: 0px;
 }
+
 /* grid container for weather info */
-.weather-grid-container{
+.weather-grid-container {
   display: grid;
-  grid-template-columns:auto min-content auto;
+  grid-template-columns: auto min-content auto;
   align-items: center;
 }
+
 /* grid item for weather image icon */
-.weather-grid-item1{
+.weather-grid-item1 {
   grid-column: 1;
   justify-self: right;
 }
+
 /* grid item for temperature info */
-.weather-grid-item2{
+.weather-grid-item2 {
   grid-column: 2;
   justify-self: auto;
 }
+
 /* grid item for weather additional info */
-.weather-grid-item3{
+.weather-grid-item3 {
   grid-column: 3;
   justify-self: left;
   padding: 5px;
 }
+
 /*the counter class is used to style the text in the counter.txt  */
-.counter{
-color:white;
-font-size:17px;
-font-family: sans-serif;
-display: inline-flex;
-text-align: center;
-vertical-align: top;
+.counter {
+  color: white;
+  font-size: 17px;
+  font-family: sans-serif;
+  display: inline-flex;
+  text-align: center;
+  vertical-align: top;
 }
+
 /*the student_section class is used to style the pictues from the Flickr feed for pictures of the week  */
-.student_section{
-padding-right:0px;
+.student_section {
+  padding-right: 0px;
 }
-.student_section2{
-  padding-top:5px;
-  padding-right:0px;
+
+.student_section2 {
+  padding-top: 5px;
+  padding-right: 0px;
 }
-.magic-mirror{
-display: inline-flex;
+
+.magic-mirror {
+  display: inline-flex;
 }
-.embed-responsive{
-height: 240px !important;
+
+.embed-responsive {
+  height: 240px !important;
 
 }
+
 .embed-responsive-item {
-height: 240px !important;
+  height: 240px !important;
 
-} 
+}
+
 /*the signature class is used to style the text telling students where to submit their pictures */
-.signature{
-color: #cc9800;
-font-family: sans-serif;
-text-align: right;
-font-size: 8px;
-padding-right:260px;
-vertical-align: top;
-position:relative;
-bottom:30px !important;
-/* padding-top:5px; */
+.signature {
+  color: #cc9800;
+  font-family: sans-serif;
+  text-align: right;
+  font-size: 8px;
+  padding-right: 260px;
+  vertical-align: top;
+  position: relative;
+  bottom: 30px !important;
+  /* padding-top:5px; */
 }
-.schedule{
-display:flex;
-margin-left: 25px;
+
+.schedule {
+  display: flex;
+  margin-left: 25px;
 }
+
 /*the score display for the teams*/
-.score{
-  color:#ffffff;
-  font-size:240px;
+.score {
+  color: #ffffff;
+  font-size: 240px;
   font-family: sans-serif;
   display: inline-flex;
   vertical-align: center;
-  padding-left:0px; /*this works together with the padding left located in h2 because the weather and Magic Mirror text are on the same axis*/
-  padding-top:0px;
+  padding-left: 0px;
+  /*this works together with the padding left located in h2 because the weather and Magic Mirror text are on the same axis*/
+  padding-top: 0px;
   line-height: 200px;
 }
+
 /*grid items for score*/
 .peddie-score-img {
-  grid-column: 1 ;
+  grid-column: 1;
   grid-row: 1;
   padding-left: 100px;
 }
+
 .peddie-score-val {
-  grid-column: 2 ;
+  grid-column: 2;
   grid-row: 1;
-  text-align:left;
+  text-align: left;
   padding-right: 75px;
 }
+
 .blair-score-img {
-  grid-column: 4 ;
+  grid-column: 4;
   grid-row: 1;
   padding-right: 100px;
 }
+
 .blair-score-val {
-  grid-column: 3 ;
+  grid-column: 3;
   grid-row: 1;
-  text-align:right;
+  text-align: right;
   padding-left: 75px;
 }
+
 .school-img {
   height: 200px;
 }
+
 /* grid for Blair-Day athletic events display */
 .event-grid {
   display: grid;
-  grid-gap:1px;
+  /* grid-gap: 1px; */
   background-color: #ffffff;
   border: 1px solid #ffffff;
+
+  /* Hide Location */
+  grid-template-columns: auto auto 0px auto auto;
 }
+
 .event-team {
   grid-column: 1;
 }
-.event-team-title{
+
+.event-team-title {
   grid-column: 1 / 3;
 }
+
 .event-level {
   grid-column: 2;
 }
+
 .event-location {
   grid-column: 3;
+
+  /* Hide Location */
+  display: none !important;
 }
+
 .event-time {
   grid-column: 4;
 }
+
 .event-score {
   grid-column: 5;
 }
-.event-grid > p{
-  display:flex;
-  align-items:center;
-  justify-content:center;
+
+.event-grid>p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #141514;
 
   color: #cc9800;
@@ -356,10 +418,11 @@ margin-left: 25px;
   font-size: 18px;
   margin-bottom: 0;
 }
-.event-grid > p2{
+
+.event-grid>p2 {
   display: flex;
-  align-items:center;
-  justify-content:center;
+  align-items: center;
+  justify-content: center;
   background-color: #282928;
 
   color: #ffffff;
