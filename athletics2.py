@@ -38,6 +38,7 @@ for i in range(0,len(override)):
                         events[j]+="\\"+event[k]
 
 for i in range(len(events)-1):
+    i.replace("\\0:00\\","\\12:00\\")
     event = events[i].split("\\")
     for k in range(len(event)):
         file1.write(event[k])
