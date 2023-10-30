@@ -38,8 +38,8 @@ for i in range(0,len(override)):
                         events[j]+="\\"+event[k]
 
 for i in range(len(events)-1):
-    i.replace("\\0:00\\","\\12:00\\")
     event = events[i].split("\\")
+    # if(event == "0:00"): event = "12:00";
     for k in range(len(event)):
         file1.write(event[k])
         if k+1 < len(event):
