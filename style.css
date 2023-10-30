@@ -96,6 +96,8 @@ h4 {
 /* Grid container used forthe scores */
 .grid-container {
   display: grid;
+  width:min-content;
+  margin:auto;
 }
 
 /* Grid container used for the main body */
