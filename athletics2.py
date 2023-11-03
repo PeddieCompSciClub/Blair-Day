@@ -39,7 +39,7 @@ for i in range(0,len(override)):
 
 for i in range(len(events)-1):
     event = events[i].split("\\")
-    # if(event == "0:00"): event = "12:00";
+    if(event[2] == "0:00"): event[2] = "12:00";
     for k in range(len(event)):
         file1.write(event[k])
         if k+1 < len(event):
