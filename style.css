@@ -104,6 +104,7 @@ h4 {
 .main-grid-container {
   display: grid;
   padding-top: 45px;
+  padding-left:80px;
 }
 
 .main-grid-container p {
