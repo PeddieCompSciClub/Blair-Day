@@ -325,9 +325,12 @@ margin-left: 25px;
 /* grid for Blair-Day athletic events display */
 .event-grid {
   display: grid;
-  grid-gap:1px;
+  /* grid-gap: 1px; */
   background-color: #ffffff;
   border: 1px solid #ffffff;
+
+  /* Hide Location */
+  grid-template-columns: auto auto 0px auto auto;
 }
 .event-team {
   grid-column: 1;
@@ -340,6 +343,9 @@ margin-left: 25px;
 }
 .event-location {
   grid-column: 3;
+
+  /* Hide Location */
+  display: none !important;
 }
 .event-time {
   grid-column: 4;
