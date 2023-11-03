@@ -1,4 +1,4 @@
-# Load athletics
+# Load athletics & score
 python3 athletics1.py
 python3 athletics2.py
 python3 score.py
