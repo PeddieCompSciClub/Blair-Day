@@ -374,7 +374,7 @@ h4 {
 .event-grid {
   display: grid;
   /* grid-gap: 1px; */
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   border: 1px solid #ffffff;
 
   /* Hide Location */
