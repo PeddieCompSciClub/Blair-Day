@@ -1,4 +1,4 @@
-44℉
-Fog
-Humidity: 94%
-Wind: 2 mph
+48℉
+Sunny
+Humidity: 63%
+Wind: 3 mph
