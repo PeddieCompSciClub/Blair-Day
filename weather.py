@@ -28,7 +28,7 @@ def get_weather_data(url):
 
 
 if __name__ == "__main__":
-    URL = "https://www.google.com/search?lr=lang_en&ie=UTF-8&q=weather+Blairstown+NJ"
+    URL = "https://www.google.com/search?lr=lang_en&ie=UTF-8&q=weather+Hightstown+NJ"
     import argparse
 
     parser = argparse.ArgumentParser(
